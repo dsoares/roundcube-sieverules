@@ -218,7 +218,7 @@ class sieverules extends rcube_plugin
 					$this->add_button(array('command' => 'plugin.sieverules.create', 'type' => 'link', 'class' => 'button buttonPas sieverules disabled', 'classact' => 'button sieverules', 'classsel' => 'button sieverulesSel', 'title' => 'sieverules.createfilterbased', 'label' => 'sieverules.createfilter'), 'toolbar');
 				}
 				else {
-					$button = $this->api->output->button(array('command' => 'plugin.sieverules.create', 'label' => 'sieverules.createfilter', 'class' => 'icon sieverules', 'classact' => 'icon sieverules active', 'innerclass' => 'icon sieverules'));
+					$button = $this->api->output->button(array('command' => 'plugin.sieverules.create', 'label' => 'sieverules.createfilter', 'type' => 'link', 'class' => 'icon sieverules', 'classact' => 'icon sieverules active', 'innerclass' => 'icon sieverules'));
 					$this->api->add_content(html::tag('li', array('role' => 'menuitem'), $button), 'messagemenu');
 				}
 			}
