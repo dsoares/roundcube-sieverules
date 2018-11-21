@@ -1,16 +1,21 @@
 {
-  "name": "johndoh/sieverules",
+  "name": "dsoares/sieverules",
   "description": "Control sieve filter settings from within Roundcube",
   "keywords": ["sieve","filters","managesieve"],
-  "homepage": "http://github.com/JohnDoh/Roundcube-Plugin-SieveRules-Managesieve/",
+  "homepage": "http://github.com/dsoares/roundcube-sieverules/",
   "license": "GPL-3.0",
   "type": "roundcube-plugin",
-  "version": "2.3-git",
+  "version": "2.3.1-git",
   "authors": [
     {
       "name": "Philip Weir",
       "email": "roundcube@tehinterweb.co.uk",
       "role": "Developer"
+    },
+    {
+      "name": "Diana Soares",
+      "email": "roundcube@tehinterweb.co.uk",
+      "role": "Maintenance Developer"
     }
   ],
   "repositories": [
