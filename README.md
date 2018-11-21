@@ -1,6 +1,13 @@
 Roundcube Webmail SieveRules
 ============================
 
+IMPORTANT NOTE
+--------------
+
+This repository is a fork of the unmaintained project [roundcube-sieverules](https://github.com/johndoh/roundcube-sieverules) by [@johndoh](https://github.com/johndoh) with some **minor updates**. <br>If you're looking for a roundcube plugin to manage sieve rules, use the official [managesieve](https://github.com/roundcube/roundcubemail/wiki/Plugin-managesieve) plugin. 
+
+It's just a place where i can update some of the code to keep up with the latest roundcube changes, until i get the time to do the migration of all the users's rulesets from sieverules format to managesieve format (the syntax of the disabled rules is different; if you just disable one plugin and enable the other, you'll loose the disabled rules).
+
 THIS PLUGIN IS NO LONGER MAINTAINED
 -----------------------------------
 Originally created to provide functionality not available in the Managesieve
